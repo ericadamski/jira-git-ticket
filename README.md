@@ -1,0 +1,26 @@
+# 🎟 git-ticket
+
+A script to lookup active JIRA tickets and create branch names.
+
+## Setup
+
+1. Clone repo
+2. Run `npm link`
+3. Log in using `git-ticket login <email> <jira_api_token>` get your token here: https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/#APItokens-CreateanAPItoken
+4. Use `git-ticket branch` to generate a branch name for a ticket
+
+## Usage
+
+```
+Usage: git-ticket [options] [command]
+
+Options:
+  -V, --version              output the version number
+  -h, --help                 display help for command
+
+Commands:
+  login <email> <api_token>  Authorize the script to read all JIRA issues assigned to your account.
+  ls                         List all your active JIRA issues
+  branch                     Select a JIRA issue to create a branch name from.
+  help [command]             display help for command
+```
