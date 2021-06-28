@@ -1,0 +1,4 @@
+index.ts
+.prettierrc
+tsconfig.json
+.env.local

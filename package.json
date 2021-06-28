@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "author": "Eric Adamski <er.adamski@gmail.com>",
   "bin": {
     "git-ticket": "dist/index.js"
   },
