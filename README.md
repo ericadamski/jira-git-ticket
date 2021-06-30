@@ -4,10 +4,10 @@ A script to lookup active JIRA tickets and create branch names.
 
 ## Setup
 
-1. Clone repo
-2. Run `npm link`
+1. `yarn global add jira-git-ticket`
 3. Log in using `git-ticket login <email> <jira_api_token>` get your token here: https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/#APItokens-CreateanAPItoken
-4. Use `git-ticket branch` to generate a branch name for a ticket
+4. Set the environment variable for your Atlassian server by adding `export JIRA_BASE_URL=https:<your-company>.atlassian.net` to your `.(bash|zsh)rc`.
+5. Use `git-ticket branch` to generate a branch name for a ticket
 
 ## Usage
 
